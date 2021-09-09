@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  width: 40%;
+  background-color: #000;
+}
+
+.logo {
+  width: 10%;
+  padding: 35px 0px 0px 35px;
+}
+
+.text {
+  width: 90%;
+/*  background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.admin_logo {
+  height: 10vh;
+  width: 8vw;
+  /* background-color: red; */
+  margin-right: 50px;
+}
+.admin_logo img {
+  width: 80px;
+  object-fit: contain;
+}
+
+.heading h1 {
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  margin-right: 90px;
+  margin-bottom: 50px;
+}
+
+.right_content form{
+  display: flex;
+  flex-direction: column;
+  padding: 250px 0px 0px 175px;
+  gap: 20px;
+}
+
+.right_content form input[type="text"], .right_content form input[type="password"]{
+  padding: 20px;
+  width: 450px;
+  height: 15px;
+  margin-top: 10px;
+  background-color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  border: none;
+}
+
+.right_content input[type="text"]:focus,
+.right_content input[type="password"]:focus {
+  outline: none;
+  border-bottom: 2px solid #000;
+}
+
+.right_content .form_submit span {
+  display: inline-block;
+  position: relative;
+  left: 450px;
+  bottom: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+.right_content .form_submit input[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+  padding: 20px 0px 20px 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  margin: 30px 0px 0px 0px;
+}
